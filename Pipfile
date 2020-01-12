@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+autopep8 = "*"
+
+[packages]
+django = "*"
+beautifulsoup4 = "*"
+requests = "*"
+django-crispy-forms = "*"
+django-widget-tweaks = "*"
+gunicorn = "*"
+psycopg2-binary = "*"
+whitenoise = "*"
+django-heroku = "*"
+dj-database-url = "*"
+
+[requires]
+python_version = "3.7"
